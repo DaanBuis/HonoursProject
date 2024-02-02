@@ -93,7 +93,11 @@ const VarPage = () => {
 
             <p>All of these calculations can be done inside the console, however they can also be assigned to variables,
                  and variables can also be used as values inside a calculation. </p>
-                
+      <hr></hr>
+
+          <h5>Test your Knowledge!</h5>    
+
+        <p>Match the keywords and symbols on the left to the correct description on the right.</p>  
 <div className="container">               
 <div className="row">
     <div className="col-sm ">
@@ -135,6 +139,13 @@ const VarPage = () => {
       </div>
       </div> 
 
+      <br></br>
+      <div className="container-fluid">
+      <div className="row">
+      <div className="col-lg-5"> 
+  
+      </div>
+        <div className="col">
       <button type="submit" onClick={(e) => { if (list[0] === "const" && list[1] === "+" && list[2] === "-" && list[3] === "=" && list[4] === "var/let" && list[5] === "%"){
         console.log("correct");
         console.log(list);
@@ -144,9 +155,20 @@ const VarPage = () => {
         console.log(list)
         setQuestion("Incorrect.")
       }}}>Submit</button>
-
-      <p>{question}</p>
+      </div>
+      <div className="col-lg-6">
+         <div className="">{question}</div>
+      </div>
+      
         </div>
+        </div>
+        <hr></hr>
+
+            <h5>End of Lesson</h5>
+
+            Congratulations, you have successfully finished this lesson, click <a href="/chapter1-methods">here</a> to continue to the next lesson, or navigate using the <a href="/chapters">Chapters</a> page!
+        </div>
+
         </>
     )
 }

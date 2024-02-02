@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Chapters from './components/Chapters';
 import IntroPage from './components/IntroPage';
 import VarPage from './components/VarPage';
+import LogicPage from './components/LogicPage'
+import MethodsPage from './components/MethodsPage';
 import React, { useState, useRef } from "react"
 
 
@@ -21,7 +23,7 @@ function App() {
       <Route path="*" element={<NoPage />} />
       <Route path="/chapter1-intro" element={<IntroPage />} />
       <Route path="/chapter1-variables" element={<VarPage />} />
-      <Route path="/chapter1-logic" element={<VarPage />} />
+      <Route path="/chapter1-methods" element={<MethodsPage />} />
     </Routes>
     </BrowserRouter>
 

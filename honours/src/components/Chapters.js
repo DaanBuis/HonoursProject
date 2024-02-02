@@ -16,7 +16,7 @@ const Chapters = () => {
                         <div class="list-group list-group-flush">
                                 <a href="/chapter1-intro" className="list-group-item list-group-item-action"> Introduction to Java</a>
                                 <a href="/chapter1-variables" className="list-group-item list-group-item-action"> Variables</a>
-                                <a href="/chapter1-logic" className="list-group-item list-group-item-action"> Logical Operators</a>
+                                <a href="/chapter1-methods" className="list-group-item list-group-item-action"> Methods and Properties</a>
                                 <a href="/chapter1-test" className="list-group-item list-group-item-action">Chapter 1 Test/Game</a>
                             </div>
                         </Accordion.Body>
