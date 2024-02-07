@@ -1,5 +1,4 @@
 import Navigation from './components/Navigation';
-import './App.css';
 import Home from "./components/Home";
 import NoPage from "./components/NoPage"
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -14,7 +13,7 @@ import React, { useState, useRef } from "react"
 function App() {
   
   return (
-    <div className="App">
+    <div className="">
       <Navigation />
     <BrowserRouter>
     <Routes>

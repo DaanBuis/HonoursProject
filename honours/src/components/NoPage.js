@@ -9,3 +9,14 @@ const NoPage = () => {
 }
 
 export default NoPage;
+
+
+
+
+
+
+
+
+
+
+      Math.sqrt(25)
