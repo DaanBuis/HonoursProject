@@ -6,10 +6,6 @@ const Home = () => {
     return (
         <div>
             HomePage
-
-            <div className="container-fluid">
-                <CardGamePage></CardGamePage>
-                </div>
         </div>
     )
 }

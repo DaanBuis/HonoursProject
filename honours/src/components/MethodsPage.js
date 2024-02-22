@@ -50,17 +50,19 @@ const MethodsPage = () => {
                 <li className="list-group-item">Math.round(num) - Returns the provided number rounded to the closest integer.</li>
                 <li className="list-group-item">Math.floor(num) - Rounds down to the previous integer.</li>
                 <li className="list-group-item">Math.sqrt(num) - Returns the square root of num.</li>
-                <li className="list-group-item">Math.random(num) - Returns a random number between 0 and num. Use alongside Math.floor to generate a random whole number, as normally it would contain lots of decimal numbers.</li>
-                <li className="list-group-item">string.replace(searchFor, replaceWith) - Finds every instance of the search for substring and replaces it with the new substring. 
+                <li className="list-group-item">Math.random() * num - Returns a random number between 0 and num. Use alongside Math.floor to generate a random whole number, as normally it would contain lots of decimal numbers.</li>
+                <li className="list-group-item">String.replace(searchFor, replaceWith) - Finds every instance of the search for substring and replaces it with the new substring. 
                     <div className="small">Note: A substring is a string within a string</div></li>
                 </ul>
                 </span>
             </p>
             <hr></hr>
-            <div className="container-fluid">
+            
                 <CardGamePage></CardGamePage>
-                </div>
-            </div>
+                
+                
+                
+                  </div>
         </>
     )
 }

@@ -15,54 +15,54 @@ import "../app.scss";
 const uniqueElementsArray = [
   {
     type: "1",
-    answer:"Math.sqrt(5)"
+    answer:"AND"
   },
   {
     type: "2",
-    answer:`"Hello".length()`
+    answer:"NOT"
   },
   {
     type: "3",
-    answer:`"javascript".toUpperCase()`
+    answer:"OR"
   },
   {
     type: "4",
-    answer:"Math.floor(Math.random(10))"
+    answer:"==="
   },
   {
     type: "5",
-    answer:"Math.round(13.5)"
+    answer:"!=="
   },
   {
     type: "6",
-    answer:"Math.floor(13.5)"
+    answer:"!(5 > 3)"
   }
 ];
 
 const uniqueElementsArray2 = [
     {
       type: "1",
-      answer:"25"
+      answer:"&&"
     },
     {
       type: "2",
-      answer:"4"
+      answer:"!"
     },
     {
       type: "3",
-      answer:"JAVASCRIPT"
+      answer:"||"
     },
     {
       type: "4",
-      answer:"Random number from 0-10"
+      answer:"Equals"
     },
     {
       type: "5",
-      answer:"14"
+      answer:"Not equal to"
     },
     {
       type: "6",
-      answer:"13"
+      answer:"False"
     }
   ];
 
@@ -77,7 +77,7 @@ function shuffleCards(array) {
   }
   return array;
 }
-export default function CardGamePage() {
+export default function LogicCardGame() {
   const [cards, setCards] = useState(
     shuffleCards.bind(null, uniqueElementsArray.concat(uniqueElementsArray2))
   );
@@ -206,7 +206,7 @@ export default function CardGamePage() {
       <hr></hr>
                 <h5>End of Lesson</h5>
 
-            Congratulations, you have successfully finished this lesson, click <a href="/chapter1-test">here</a> to continue to the test, or navigate using the <a href="/chapters">Chapters</a> page!
+            Congratulations, you have successfully finished this lesson, click <a href="/chapter2-scope">here</a> to continue to the test, or navigate using the <a href="/chapters">Chapters</a> page!
           
       <Dialog
         open={showModal}

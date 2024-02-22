@@ -24,11 +24,11 @@ const Chapters = () => {
                         </li>
                         <li class="list-group-item list-group-item-action">
                         <Accordion>
-                        <Accordion.Header><div className="fw-bold">Chapter 2: Arithmetics</div></Accordion.Header>
+                        <Accordion.Header><div className="fw-bold">Chapter 2: Conditionals & Scope</div></Accordion.Header>
                         <Accordion.Body>
                         <div class="list-group list-group-flush">
-                                <a href="/chapter1-intro" className="list-group-item list-group-item-action"> Introduction to Java</a>
-                                <a href="/chapter1-variables" className="list-group-item list-group-item-action"> Variables</a>
+                                <a href="/chapter2-conditionals" className="list-group-item list-group-item-action"> Conditionals</a>
+                                <a href="/chapter2-logic" className="list-group-item list-group-item-action"> Logical Operators</a>
                                 
                             </div>
                         </Accordion.Body>
