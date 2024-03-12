@@ -29,7 +29,20 @@ const Chapters = () => {
                         <div class="list-group list-group-flush">
                                 <a href="/chapter2-conditionals" className="list-group-item list-group-item-action"> Conditionals</a>
                                 <a href="/chapter2-logic" className="list-group-item list-group-item-action"> Logical Operators</a>
-                                
+                                <a href="/chapter2-scope" className="list-group-item list-group-item-action">Scope</a>
+                                <a href="/chapter2-test" className="list-group-item list-group-item-action">Test and Review</a>
+                            </div>
+                        </Accordion.Body>
+                        </Accordion>
+                        </li>
+                        <li class="list-group-item list-group-item-action">
+                        <Accordion>
+                        <Accordion.Header><div className="fw-bold">Chapter 3: Functions</div></Accordion.Header>
+                        <Accordion.Body>
+                        <div class="list-group list-group-flush">
+                                <a href="/chapter3-functions" className="list-group-item list-group-item-action"> Functions</a>
+                                <a href="/chapter3-altfunc" className="list-group-item list-group-item-action">Alternate Functions </a>
+                                <a href="/chapter2-scope" className="list-group-item list-group-item-action">Scope</a>
                             </div>
                         </Accordion.Body>
                         </Accordion>

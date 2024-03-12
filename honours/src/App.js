@@ -8,7 +8,10 @@ import VarPage from './components/VarPage';
 import LogicPage from './components/LogicPage'
 import MethodsPage from './components/MethodsPage';
 import TestPageOne from './components/TestPageOne';
+import TestPageTwo from './components/TestPageTwo';
+import FuncPage from './components/funcPage';
 import ScopePage from './components/ScopePage';
+import AltFunc from './components/AltFunc';
 import ConditionalsPage from './components/ConditionalsPage';
 import React, { useState, useRef } from "react"
 
@@ -30,6 +33,9 @@ function App() {
       <Route path="/chapter2-conditionals" element={<ConditionalsPage />} />
       <Route path="/chapter2-logic" element={<LogicPage />} />
       <Route path="/chapter2-scope" element={<ScopePage />} />
+      <Route path="/chapter2-test" element={<TestPageTwo />} />
+      <Route path="/chapter3-functions" element={<FuncPage />} />
+      <Route path="/chapter3-altfunc" element={<AltFunc />} />
     </Routes>
     </BrowserRouter>
 
