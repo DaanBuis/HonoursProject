@@ -24,26 +24,26 @@ function App() {
   return (
     <div className="">
       <Navigation />
-    <BrowserRouter>
+   
     <Routes>
-      <Route path="./" element={<Home />} />
-      <Route path="./chapters" element={<Chapters />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/chapters" element={<Chapters />} />
       <Route path="*" element={<NoPage />} />
-      <Route path="./chapter1-intro" element={<IntroPage />} />
-      <Route path="./chapter1-variables" element={<VarPage />} />
-      <Route path="./chapter1-methods" element={<MethodsPage />} />
-      <Route path="./chapter1-test" element={<TestPageOne />} />
-      <Route path="./chapter2-conditionals" element={<ConditionalsPage />} />
-      <Route path="./chapter2-logic" element={<LogicPage />} />
-      <Route path="./chapter2-scope" element={<ScopePage />} />
-      <Route path="./chapter2-test" element={<TestPageTwo />} />
-      <Route path="./chapter3-functions" element={<FuncPage />} />
-      <Route path="./chapter3-altfunc" element={<AltFunc />} />
-      <Route path="./chapter3-intobj" element={<IntObjects />}/>
-      <Route path="./chapter3-test" element={<TestPageThree />}/>
-      <Route path="./about" element={<AboutPage />}/>
+      <Route path="/chapter1-intro" element={<IntroPage />} />
+      <Route path="/chapter1-variables" element={<VarPage />} />
+      <Route path="/chapter1-methods" element={<MethodsPage />} />
+      <Route path="/chapter1-test" element={<TestPageOne />} />
+      <Route path="/chapter2-conditionals" element={<ConditionalsPage />} />
+      <Route path="/chapter2-logic" element={<LogicPage />} />
+      <Route path="/chapter2-scope" element={<ScopePage />} />
+      <Route path="/chapter2-test" element={<TestPageTwo />} />
+      <Route path="/chapter3-functions" element={<FuncPage />} />
+      <Route path="/chapter3-altfunc" element={<AltFunc />} />
+      <Route path="/chapter3-intobj" element={<IntObjects />}/>
+      <Route path="/chapter3-test" element={<TestPageThree />}/>
+      <Route path="/about" element={<AboutPage />}/>
     </Routes>
-    </BrowserRouter>
+  
 
     
     </div>
