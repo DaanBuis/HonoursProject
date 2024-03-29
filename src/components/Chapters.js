@@ -42,7 +42,8 @@ const Chapters = () => {
                         <div class="list-group list-group-flush">
                                 <a href="/chapter3-functions" className="list-group-item list-group-item-action"> Functions</a>
                                 <a href="/chapter3-altfunc" className="list-group-item list-group-item-action">Alternate Functions </a>
-                                <a href="/chapter2-scope" className="list-group-item list-group-item-action">Scope</a>
+                                <a href="/chapter3-intobj" className="list-group-item list-group-item-action">Intro to Objects</a>
+                                <a href="/chapter3-test" className="list-group-item list-group-item-action">Recap Test</a>
                             </div>
                         </Accordion.Body>
                         </Accordion>

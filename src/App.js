@@ -9,9 +9,12 @@ import LogicPage from './components/LogicPage'
 import MethodsPage from './components/MethodsPage';
 import TestPageOne from './components/TestPageOne';
 import TestPageTwo from './components/TestPageTwo';
+import TestPageThree from './components/TestPageThree';
 import FuncPage from './components/funcPage';
 import ScopePage from './components/ScopePage';
 import AltFunc from './components/AltFunc';
+import IntObjects from './components/IntObjects';
+import AboutPage from './components/AboutPage';
 import ConditionalsPage from './components/ConditionalsPage';
 import React, { useState, useRef } from "react"
 
@@ -36,12 +39,15 @@ function App() {
       <Route path="/chapter2-test" element={<TestPageTwo />} />
       <Route path="/chapter3-functions" element={<FuncPage />} />
       <Route path="/chapter3-altfunc" element={<AltFunc />} />
+      <Route path="/chapter3-intobj" element={<IntObjects />}/>
+      <Route path="/chapter3-test" element={<TestPageThree />}/>
+      <Route path="/about" element={<AboutPage />}/>
     </Routes>
     </BrowserRouter>
 
     
     </div>
-  );
+  );   
 }
 
 export default App;
