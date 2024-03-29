@@ -12,8 +12,8 @@ const Home = () => {
                 is to find how well the interactive elements complement your learning experience, so it is important that when you go through this course you take note of how the interactivity affects your learning experience. 
             </p>
 
-            <p className="px-4 pt-1">You can click <Link to="./chapter1-intro">here</Link> to get started straight away, or you can use the <Link to="./chapters">Chapters</Link> page to navigate to the different topics.</p>
-            <p className="px-4 pt-1">If you have any questions or inqueries, please either see the <Link to="./about">about us</Link> page, or email DBUIS201@caledonian.ac.uk</p>
+            <p className="px-4 pt-1">You can click <Link to="/chapter1-intro">here</Link> to get started straight away, or you can use the <Link to="/chapters">Chapters</Link> page to navigate to the different topics.</p>
+            <p className="px-4 pt-1">If you have any questions or inqueries, please either see the <Link to="/about">about us</Link> page, or email DBUIS201@caledonian.ac.uk</p>
         </div>
     )
 }

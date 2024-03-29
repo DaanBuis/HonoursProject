@@ -76,7 +76,7 @@ const IntObjects = () => {
 
 <h5>End of Lesson</h5>
 
-Congratulations, you have successfully finished this lesson, click <Link to="./chapter3-test">here</Link> to continue to the test!
+Congratulations, you have successfully finished this lesson, click <Link to="/chapter3-test">here</Link> to continue to the test!
 
     </div>
         </>

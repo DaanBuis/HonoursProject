@@ -182,7 +182,7 @@ const ConditionalsPage = () => {
 
             <h5>End of Lesson</h5>
 
-            Congratulations, you have successfully finished this lesson, click <Link to="./chapter2-logic">here</Link> to continue to the next lesson, or navigate using the <Link to="./chapters">Chapters</Link> page!
+            Congratulations, you have successfully finished this lesson, click <Link to="/chapter2-logic">here</Link> to continue to the next lesson, or navigate using the <Link to="/chapters">Chapters</Link> page!
         
         </div>
         

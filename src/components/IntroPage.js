@@ -196,7 +196,7 @@ const [questionFour, setQuestionFour] = useState("")
 
             <h5>End of Lesson</h5>
 
-            Congratulations, you have successfully finished this lesson, click <Link to="./chapter1-variables">here</Link> to continue to the next lesson, or navigate using the <Link to="./chapters">Chapters</Link> page!
+            Congratulations, you have successfully finished this lesson, click <Link to="/chapter1-variables">here</Link> to continue to the next lesson, or navigate using the <Link to="/chapters">Chapters</Link> page!
         </div>
         </>
     )
