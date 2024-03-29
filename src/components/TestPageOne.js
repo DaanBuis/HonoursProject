@@ -20,7 +20,7 @@ const TestPageOne = () => {
             <hr></hr>
         <h5>End of Test</h5>
 
-        Congratulations, you have successfully finished this test, click <a href="/chapter2-conditionals">here</a> to continue to the next lesson, or navigate using the <a href="/chapters">Chapters</a> page!
+        Congratulations, you have successfully finished this test, click <a href="./chapter2-conditionals">here</a> to continue to the next lesson, or navigate using the <a href="/chapters">Chapters</a> page!
 
             </div>
         </>

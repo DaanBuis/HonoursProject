@@ -1,4 +1,5 @@
 {
+  "homepage":"https://daanbuis.github.io/HonoursProject/",
   "name": "honours",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.70.0",
     "sass-loader": "^14.1.0",
     "webpack": "^5.90.1"

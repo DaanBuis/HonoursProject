@@ -206,7 +206,7 @@ export default function CardGamePage() {
       <hr></hr>
                 <h5>End of Lesson</h5>
 
-            Congratulations, you have successfully finished this lesson, click <a href="/chapter1-test">here</a> to continue to the test, or navigate using the <a href="/chapters">Chapters</a> page!
+            Congratulations, you have successfully finished this lesson, click <a href="./chapter1-test">here</a> to continue to the test, or navigate using the <a href="./chapters">Chapters</a> page!
           
       <Dialog
         open={showModal}
