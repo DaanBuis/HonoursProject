@@ -1,6 +1,7 @@
 import React, { useState }from "react"
 import QuizOne from "./QuizOne"
 import { SurveyCreatorWidget } from "./rendersurvey"
+import { Link } from "react-router-dom";
 
 const TestPageOne = () => {   
 
@@ -20,7 +21,7 @@ const TestPageOne = () => {
             <hr></hr>
         <h5>End of Test</h5>
 
-        Congratulations, you have successfully finished this test, click <a href="./chapter2-conditionals">here</a> to continue to the next lesson, or navigate using the <a href="/chapters">Chapters</a> page!
+        Congratulations, you have successfully finished this test, click <Link to="./chapter2-conditionals">here</Link> to continue to the next lesson, or navigate using the <Link to="./chapters">Chapters</Link> page!
 
             </div>
         </>

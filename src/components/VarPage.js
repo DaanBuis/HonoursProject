@@ -1,4 +1,5 @@
 import React, { useState, useRef} from "react"
+import { Link } from "react-router-dom";
 
 const VarPage = () => {
     const dragItem = useRef();
@@ -166,7 +167,7 @@ const VarPage = () => {
 
             <h5>End of Lesson</h5>
 
-            Congratulations, you have successfully finished this lesson, click <a href="./chapter1-methods">here</a> to continue to the next lesson, or navigate using the <a href="./chapters">Chapters</a> page!
+            Congratulations, you have successfully finished this lesson, click <Link to="./chapter1-methods">here</Link> to continue to the next lesson, or navigate using the <Link to="./chapters">Chapters</Link> page!
         </div>
 
         </>

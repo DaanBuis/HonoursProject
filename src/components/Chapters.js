@@ -1,5 +1,6 @@
 import React from "react"
 import Accordion from "react-bootstrap/Accordion";
+import { Link } from "react-router-dom";
 
 const Chapters = () => {
 
@@ -14,10 +15,10 @@ const Chapters = () => {
                         <Accordion.Header><div className="fw-bold">Chapter 1: Intro to Java</div></Accordion.Header>
                         <Accordion.Body>
                         <div class="list-group list-group-flush">
-                                <a href="./chapter1-intro" className="list-group-item list-group-item-action"> Introduction to Java</a>
-                                <a href="./chapter1-variables" className="list-group-item list-group-item-action"> Variables</a>
-                                <a href="./chapter1-methods" className="list-group-item list-group-item-action"> Methods and Properties</a>
-                                <a href="./chapter1-test" className="list-group-item list-group-item-action">Chapter 1 Test/Game</a>
+                                <Link to="./chapter1-intro" className="list-group-item list-group-item-action"> Introduction to Java</Link>
+                                <Link to="./chapter1-variables" className="list-group-item list-group-item-action"> Variables</Link>
+                                <Link to="./chapter1-methods" className="list-group-item list-group-item-action"> Methods and Properties</Link>
+                                <Link to="./chapter1-test" className="list-group-item list-group-item-action">Chapter 1 Test/Game</Link>
                             </div>
                         </Accordion.Body>
                         </Accordion>
@@ -27,10 +28,10 @@ const Chapters = () => {
                         <Accordion.Header><div className="fw-bold">Chapter 2: Conditionals & Scope</div></Accordion.Header>
                         <Accordion.Body>
                         <div class="list-group list-group-flush">
-                                <a href="./chapter2-conditionals" className="list-group-item list-group-item-action"> Conditionals</a>
-                                <a href="./chapter2-logic" className="list-group-item list-group-item-action"> Logical Operators</a>
-                                <a href="./chapter2-scope" className="list-group-item list-group-item-action">Scope</a>
-                                <a href="./chapter2-test" className="list-group-item list-group-item-action">Test and Review</a>
+                                <Link to="./chapter2-conditionals" className="list-group-item list-group-item-action"> Conditionals</Link>
+                                <Link to="./chapter2-logic" className="list-group-item list-group-item-action"> Logical Operators</Link>
+                                <Link to="./chapter2-scope" className="list-group-item list-group-item-action">Scope</Link>
+                                <Link to="./chapter2-test" className="list-group-item list-group-item-action">Test and Review</Link>
                             </div>
                         </Accordion.Body>
                         </Accordion>
@@ -40,10 +41,10 @@ const Chapters = () => {
                         <Accordion.Header><div className="fw-bold">Chapter 3: Functions</div></Accordion.Header>
                         <Accordion.Body>
                         <div class="list-group list-group-flush">
-                                <a href="./chapter3-functions" className="list-group-item list-group-item-action"> Functions</a>
-                                <a href="./chapter3-altfunc" className="list-group-item list-group-item-action">Alternate Functions </a>
-                                <a href="./chapter3-intobj" className="list-group-item list-group-item-action">Intro to Objects</a>
-                                <a href="./chapter3-test" className="list-group-item list-group-item-action">Recap Test</a>
+                                <Link to="./chapter3-functions" className="list-group-item list-group-item-action"> Functions</Link>
+                                <Link to="./chapter3-altfunc" className="list-group-item list-group-item-action">Alternate Functions </Link>
+                                <Link to="./chapter3-intobj" className="list-group-item list-group-item-action">Intro to Objects</Link>
+                                <Link to="./chapter3-test" className="list-group-item list-group-item-action">Recap Test</Link>
                             </div>
                         </Accordion.Body>
                         </Accordion>
