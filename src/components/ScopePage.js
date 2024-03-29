@@ -53,7 +53,7 @@ const ScopePage = () => {
         <hr></hr>
         <h5>End of Lesson</h5>
 
-        Congratulations, you have successfully finished this lesson, click <Link to="./chapter2-test">here</Link> to continue to the test, or navigate using the <Link to="./chapters">Chapters</Link> page!
+        Congratulations, you have successfully finished this lesson, click <Link to="/chapter2-test">here</Link> to continue to the test, or navigate using the <Link to="/chapters">Chapters</Link> page!
 
         </div>
 

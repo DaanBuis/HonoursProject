@@ -9,13 +9,13 @@ const Navigation = () => {
         <nav className="navbar navbar-expand-md bg-white navbar-light py-2 py-lg-0">
                 <div className="navbar-nav nav-fill">
 
-                    <Link to="./" className="nav-item nav-link active">
+                    <Link to="/" className="nav-item nav-link active">
                         Home
                     </Link>
-                    <Link to="./chapters" className="nav-item nav-link">
+                    <Link to="/chapters" className="nav-item nav-link">
                         Chapters
                     </Link>
-                    <Link to="./about" className="nav-item nav-link">
+                    <Link to="/about" className="nav-item nav-link">
                         About
                     </Link>
                     

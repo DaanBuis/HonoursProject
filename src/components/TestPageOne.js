@@ -21,7 +21,7 @@ const TestPageOne = () => {
             <hr></hr>
         <h5>End of Test</h5>
 
-        Congratulations, you have successfully finished this test, click <Link to="./chapter2-conditionals">here</Link> to continue to the next lesson, or navigate using the <Link to="./chapters">Chapters</Link> page!
+        Congratulations, you have successfully finished this test, click <Link to="/chapter2-conditionals">here</Link> to continue to the next lesson, or navigate using the <Link to="/chapters">Chapters</Link> page!
 
             </div>
         </>
