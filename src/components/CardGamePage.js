@@ -47,7 +47,7 @@ const uniqueElementsArray2 = [
     },
     {
       type: "2",
-      answer:"4"
+      answer:"5"
     },
     {
       type: "3",
