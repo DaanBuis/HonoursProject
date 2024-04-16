@@ -177,7 +177,7 @@ const [questionFour, setQuestionFour] = useState("")
                 </div>
 
                 <div class="form-check">
-                <input type="radio" class="form-check-input" name="flexRadioDefault" id="question4.3" onClick={(e) => setQuestionFour("Correct!")}/>
+                <input type="radio" class="form-check-input" name="flexRadioDefault" id="question4.3" onClick={(e) => setQuestionFour("Incorrect!")}/>
                 <label for="question4.3" class="form-check-label">Null</label>
                 </div>
 
